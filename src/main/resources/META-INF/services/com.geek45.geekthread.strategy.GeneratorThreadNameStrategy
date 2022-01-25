@@ -1,0 +1,4 @@
+com.geek45.geekthread.strategy.impl.GeneratorKeyAndIdName
+com.geek45.geekthread.strategy.impl.GeneratorKeyAndUidName
+com.geek45.geekthread.strategy.impl.GeneratorLongUidName
+com.geek45.geekthread.strategy.impl.GeneratorShortUidName

@@ -1,0 +1,84 @@
+{
+  "group": [
+    {
+      "name": "geek.config.thread",
+      "type": "com.geek45.geekthread.config.ThreadConfiguration",
+      "description": "线程池配置 ."
+    }
+  ],
+  "properties": [
+    {
+      "name": "geek.config.thread.coreSize",
+      "type": "java.lang.Integer",
+      "description": "核心线程数量 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": 8
+    },{
+      "name": "geek.config.thread.maxSize",
+      "type": "java.lang.Integer",
+      "description": "最大线程数 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": 128
+    },{
+      "name": "geek.config.thread.keepAliveTime",
+      "type": "java.lang.Long",
+      "description": "闲置线程持续多久 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": 0
+    },{
+      "name": "geek.config.thread.timeUnit",
+      "type": "java.lang.String",
+      "description": "时间单位 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": "SECONDS"
+    },{
+      "name": "geek.config.thread.key",
+      "type": "java.lang.String",
+      "description": "生成线程名时所使用的的key .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": "thread"
+    },{
+      "name": "geek.config.thread.generatorNameType",
+      "type": "java.lang.String",
+      "description": "生成线程名的策略 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": "SHORT_UID"
+    },{
+      "name": "geek.config.thread.taskMaxCount",
+      "type": "java.lang.Integer",
+      "description": "最大支持的任务数量 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": 2048
+    },{
+      "name": "geek.config.thread.daemon",
+      "type": "java.lang.Boolean",
+      "description": "是否启用守护线程 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": true
+    },{
+      "name": "geek.config.thread.priority",
+      "type": "java.lang.Integer",
+      "description": "线程优先级 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": 5
+    },{
+      "name": "geek.config.thread.monitor",
+      "type": "java.lang.Boolean",
+      "description": "是否监控线程池状态 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": true
+    },{
+      "name": "geek.config.thread.monitorMills",
+      "type": "java.lang.Long",
+      "description": "监控间隔时间 .",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": 3000
+    },{
+      "name": "geek.config.thread.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用线程池",
+      "sourceType": "com.geek45.geekthread.config.ThreadConfiguration",
+      "defaultValue": false
+    }
+  ]
+}

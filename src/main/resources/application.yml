@@ -1,0 +1,15 @@
+geek:
+  config:
+    thread:
+      coreSize: 8
+      maxSize: 128
+      keepAliveTime: 0
+      timeUnit: "SECONDS"
+      key: ""
+      generatorNameType: "LONG_UID"
+      taskMaxCount: 2048
+      daemon: true
+      priority: 5
+      monitor: true
+      monitorMills: 3000
+      enable: false

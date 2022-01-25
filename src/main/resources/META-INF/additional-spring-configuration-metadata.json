@@ -1,0 +1,53 @@
+{
+  "properties": [
+    {
+      "name": "geek.config.thread.coreSize",
+      "description": "核心线程数量 .",
+      "defaultValue": 8
+    },{
+      "name": "geek.config.thread.maxSize",
+      "description": "最大线程数 .",
+      "defaultValue": 128
+    },{
+      "name": "geek.config.thread.keepAliveTime",
+      "description": "闲置线程持续多久 .",
+      "defaultValue": 0
+    },{
+      "name": "geek.config.thread.timeUnit",
+      "description": "时间单位 .",
+      "defaultValue": "SECONDS"
+    },{
+      "name": "geek.config.thread.key",
+      "description": "生成线程名时所使用的的key .",
+      "defaultValue": "thread"
+    },{
+      "name": "geek.config.thread.generatorNameType",
+      "description": "生成线程名的策略 .",
+      "defaultValue": "SHORT_UID"
+    },{
+      "name": "geek.config.thread.taskMaxCount",
+      "description": "最大支持的任务数量 .",
+      "defaultValue": 2048
+    },{
+      "name": "geek.config.thread.daemon",
+      "description": "是否启用守护线程 .",
+      "defaultValue": true
+    },{
+      "name": "geek.config.thread.priority",
+      "description": "线程优先级 .",
+      "defaultValue": 5
+    },{
+      "name": "geek.config.thread.monitor",
+      "description": "是否监控线程池状态 .",
+      "defaultValue": true
+    },{
+      "name": "geek.config.thread.monitorMills",
+      "description": "监控间隔时间 .",
+      "defaultValue": 3000
+    },{
+      "name": "geek.config.thread.enable",
+      "description": "是否启用线程池 .",
+      "defaultValue": false
+    }
+  ]
+}
