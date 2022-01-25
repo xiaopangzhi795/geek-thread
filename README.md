@@ -1,4 +1,7 @@
 # 关于线程池的用法说明
+## TODO
+- [ ] 默认的一个线程池，直接注入到容器中，通过enable字段来配置是否需要默认线程池
+
 
 ## 配置说明
 ### geek.config.thread.coreSize
@@ -123,3 +126,4 @@ class GeekStarterRunDemoApplicationTests {
 
 
 ```
+
